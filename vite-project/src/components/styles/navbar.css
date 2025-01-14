@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(32, 224, 173);
+    color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding: 2% 0;
+}
+.link-to{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link-to:hover{
+    text-decoration: underline;
+}

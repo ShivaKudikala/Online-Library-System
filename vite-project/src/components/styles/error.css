@@ -1,0 +1,24 @@
+.error-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.home-btn{
+    background-color: #2596dc;
+    padding: 15px 25px;
+    border: none;
+    color: white; 
+}
+.home-btn:hover{
+    cursor: pointer;
+}
+.error-code{
+    font-size: 60px;
+    color: red;
+}
+.err-text{
+    font-size: 20px;
+} 

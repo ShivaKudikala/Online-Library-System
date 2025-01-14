@@ -1,0 +1,52 @@
+
+.heading-div{
+    margin: 5%;
+    text-align: center;
+    color: white;
+}
+
+.category-div{
+    margin: 2% 5%;
+}
+.category-div h3{
+    color: white;
+    margin: 2%;
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.link-ele{
+    text-decoration: none;
+}
+.link-ele:hover{
+    text-decoration: underline;
+}
+.categories li{
+    background-color: rgb(40, 252, 195);
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.trendingbooks-div{
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.trendingbooks-div h3{
+    color: white;
+    margin: 2%;
+}
+.book-list-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
